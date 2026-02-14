@@ -26,7 +26,7 @@ A metodologia seguiu um fluxo inspirado no **CRISP-DM**, culminando na criação
 
 ## 🚀 Metodologia e Pipeline
 
-O desenvolvimento foi documentado detalhadamente no Jupyter Notebook `TCC_v5.ipynb`, estruturado nas seguintes etapas:
+O desenvolvimento foi documentado detalhadamente no Jupyter Notebook `colab_code.ipynb`, estruturado nas seguintes etapas:
 
 ### 1. Coleta e Validação (Etapa 1)
 - Validação estrutural de 19 anos de arquivos `.xlsx` (2006-2024).
@@ -59,18 +59,15 @@ O desenvolvimento foi documentado detalhadamente no Jupyter Notebook `TCC_v5.ipy
 *   **Machine Learning Clássico:** Scikit-learn
 *   **AutoML & Modelagem Avançada:** **H2O.ai** (Java based)
 *   **Ambiente:** Google Colab / Jupyter Notebook
-
+s
 ---
 
 ## 📂 Estrutura do Repositório
 
 ```
 .
-├── TCC_v5.ipynb              # Notebook principal com todo o código (Pipeline completa)
-├── APLICAÇÃO.../             # Arquivos LaTeX do texto do TCC
-│   ├── capitulos/            # Capítulos teóricos (Introdução, Metodologia, Resultados...)
-│   └── main.pdf              # Versão compilada do trabalho escrito
-├── annotated-tcc...pdf       # PDF do TCC com anotações
+├── colab_code.ipynb              # Notebook principal com todo o código
+├── tcc...pdf       # PDF do TCC com anotações
 ├── README.md                 # Documentação do projeto
 └── ...
 ```
