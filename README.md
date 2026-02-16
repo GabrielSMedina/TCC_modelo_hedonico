@@ -67,7 +67,7 @@ s
 ```
 .
 ├── colab_code.ipynb              # Notebook principal com todo o código
-├── tcc...pdf       # PDF do TCC com anotações
+├── tcc.pdf       # PDF do TCC com anotações
 ├── README.md                 # Documentação do projeto
 └── ...
 ```
@@ -88,8 +88,8 @@ O código foi originalmente desenvolvido para o ambiente **Google Colab**, monta
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/GabrielSMedina/TCC_modelo_hedonico.git
-cd TCC_modelo_hedonico
+git clone https://github.com/GabrielSMedina/predicao_residencial_sp.git
+cd predicao_residencial_sp
 
 # Recomenda-se usar um ambiente virtual
 python -m venv venv
@@ -122,7 +122,7 @@ Inicie o Jupyter Notebook:
 jupyter notebook
 ```
 
-Abra o arquivo `TCC_v5.ipynb` e execute as células.
+Abra o arquivo `predicao_residencial_sp.ipynb` e execute as células.
 
 > **Aviso:** A etapa de AutoML com H2O pode ser intensiva em memória RAM. Se estiver rodando localmente, certifique-se de ter memória disponível ou reduza o parâmetro `max_runtime_secs` nas funções de treinamento.
 
